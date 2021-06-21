@@ -1,8 +1,8 @@
 #+TITLE: dwmblocks-distrotube
 
 * About Dwmblocks
-#+CAPTION: dwmblocks-distrotube
-#+ATTR_HTML: :alt dwmblocks-distrotube :title dwmblocks-distrotube :align left
+#+CAPTION: dwmblocks-kage
+#+ATTR_HTML: :alt dwmblocks-kage :title dwmblocks-kage :align left
 [[https://gitlab.com/dwt1/dotfiles/raw/master/.screenshots/dotfiles05-thumb.png]]
 
 Dwmblocks is a modular status bar for dwm written in c.  This is my personal build of dwmblocks.
@@ -10,7 +10,7 @@ Dwmblocks is a modular status bar for dwm written in c.  This is my personal bui
 * Modifying dwmblocks
 The statusbar is made from text output from scripts found in my [[.local/bin][https://gitlab.com/dwt1/dotfiles/-/tree/master/.local/bin]].  Blocks are added and removed by editing the blocks.h header file.
 
-* Installing dwmblocks-distrotube on Arch Linux
+* Installing dwmblocks-kage on Arch Linux
 All you need to do is download the PKGBUILD from this repository.  Then run the following command:
 
 =makepkg -cf=
@@ -31,7 +31,7 @@ Then, sync the repositories and update your system with:
 =sudo pacman -Syyu=
 
 And, then:
-=sudo pacman -S dwmblocks-distrotube-git=
+=sudo pacman -S dwmblocks-kage-git=
 
 * To get my dwmblocks to work for you...
 You will, of course, need my dwmblocks build and my scripts in [.local/bin](https://gitlab.com/dwt1/dotfiles/-/tree/master/.local/bin).  Make sure that .local/bin is in your $PATH otherwise you can't call those scripts by name which is what I'm doing in blocks.h.  Instead, you'd have to write out the full path to each script in the blocks.h.
