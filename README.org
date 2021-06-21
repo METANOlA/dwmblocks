@@ -1,4 +1,4 @@
-#+TITLE: dwmblocks-distrotube
+#+TITLE: dwmblocks-kagee
 
 * About Dwmblocks
 #+CAPTION: dwmblocks-kage
@@ -15,11 +15,11 @@ All you need to do is download the PKGBUILD from this repository.  Then run the 
 
 =makepkg -cf=
 
-This will create a file that ends in .pkg.tar.zst (for example, dwmblocks-distrotube-git-6.2-1-x86_64.pkg.tar.zst).  Then run:
+This will create a file that ends in .pkg.tar.zst (for example, dwmblocks-kage-git-6.2-1-x86_64.pkg.tar.zst).  Then run:
 
 =sudo pacman -U *.pkg.tar.zst
 
-Alternatively, you could also install dwmblocks-distrotube-git from my own personal Arch repository.  To do so, add the following to the end of /etc/pacman.conf :
+Alternatively, you could also install dwmblocks-kagee-git from my own personal Arch repository.  To do so, add the following to the end of /etc/pacman.conf :
 
 #+begin_example
 [dt-arch-repo]
